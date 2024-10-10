@@ -8,11 +8,7 @@ import {
     Tooltip,
 } from 'recharts';
 
-// type definition for SignalData
-interface SignalData {
-    time: string;
-    signals: number[];
-}
+import { SignalData } from './schema';
 
 export default function Chart() {
     const [data, setData] = useState<SignalData[]>([]); // hook for raw data
