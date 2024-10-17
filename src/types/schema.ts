@@ -18,3 +18,7 @@ export interface SlidersProps {
     chartSize: number;
     setChartSize: (value: number) => void;
 }
+
+export interface ChartSettings {
+    active_signals: number[];
+}
