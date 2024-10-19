@@ -3,9 +3,9 @@ import useSliderSettings from '@/hooks/useSliderSettings';
 import { rechartsProcessing } from '@/lib/chart-utils';
 
 import { Card, CardHeader } from '@/components/ui/card';
-import LineChart from '@/components/chart/LineChart';
-import DataTable from '@/components/chart/DataTable';
-import Sliders from '@/components/chart/Sliders';
+import LineChart from './LineChart';
+import DataTable from './DataTable';
+import Sliders from './Sliders';
 
 export default function Chart() {
     const { batchesPerSecond, setBatchesPerSecond, chartSize, setChartSize } =
