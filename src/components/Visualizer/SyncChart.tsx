@@ -34,10 +34,11 @@ export default function SyncChart({ renderData = [] }: ChartProps) {
                         <Tooltip />
                         <Line
                             isAnimationActive={false}
-                            type="monotone"
+                            type="linear"
                             dataKey="signal1"
                             stroke="#8884d8"
                             strokeWidth={2}
+                            dot={false}
                         />
                     </LineChart>
                 </ResponsiveContainer>
@@ -61,10 +62,11 @@ export default function SyncChart({ renderData = [] }: ChartProps) {
 
                         <Line
                             isAnimationActive={false}
-                            type="monotone"
+                            type="linear"
                             dataKey="signal2"
                             stroke="#82ca9d"
                             strokeWidth={2}
+                            dot={false}
                         />
                     </LineChart>
                 </ResponsiveContainer>
@@ -87,10 +89,11 @@ export default function SyncChart({ renderData = [] }: ChartProps) {
                         <Tooltip />
                         <Line
                             isAnimationActive={false}
-                            type="monotone"
+                            type="linear"
                             dataKey="signal3"
                             stroke="#ffc658"
                             strokeWidth={2}
+                            dot={false}
                         />
                     </LineChart>
                 </ResponsiveContainer>
@@ -113,10 +116,11 @@ export default function SyncChart({ renderData = [] }: ChartProps) {
                         <Tooltip />
                         <Line
                             isAnimationActive={false}
-                            type="monotone"
+                            type="linear"
                             dataKey="signal4"
                             stroke="#ff7300"
                             strokeWidth={2}
+                            dot={false}
                         />
                     </LineChart>
                 </ResponsiveContainer>
@@ -139,10 +143,11 @@ export default function SyncChart({ renderData = [] }: ChartProps) {
                         <Tooltip />
                         <Line
                             isAnimationActive={false}
-                            type="monotone"
+                            type="linear"
                             dataKey="signal5"
                             stroke="#f66a69"
                             strokeWidth={2}
+                            dot={false}
                         />
                     </LineChart>
                 </ResponsiveContainer>
