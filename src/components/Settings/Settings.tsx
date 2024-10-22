@@ -9,6 +9,8 @@ export default function Settings() {
         setIsStreaming(!isStreaming);
     };
 
+    const handleReset = () => {};
+
     return (
         <div className="flex justify-between">
             <MenuBar />
@@ -16,7 +18,7 @@ export default function Settings() {
                 <Button onClick={handleStartStream}>
                     {isStreaming ? 'Stop Data Stream' : 'Start Data Stream'}{' '}
                 </Button>
-                <Button>Reset</Button>
+                <Button onClick={handleReset}>Reset</Button>
                 <Button>Save</Button>
             </div>
         </div>
